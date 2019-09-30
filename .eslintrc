@@ -18,5 +18,11 @@
     "id-length": 0,
     "react/jsx-indent": [2, 4],
     "react/jsx-indent-props": [2, 4]
-  }
+  },
+  "overrides": [{
+    "files": [ "*.spec.js" ],
+    "rules": {
+      "no-undef": 0
+    }
+  }]
 }

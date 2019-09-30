@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Component = ({ name }) => (
-    <h1>Hello {name}!</h1>
+const FullHeader = () => (
+    <header></header>
 );
 
-Component.propTypes = {
+FullHeader.propTypes = {
     name: PropTypes.string.isRequired,
 };
 
-export default Component;
+export default FullHeader;
